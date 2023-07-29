@@ -3,5 +3,4 @@ function sum(m, n) {
   return m + n;
 }
 
-let = sumResult = sum(1,3);
-alert(sumResult);
+let sumResult = sum(1,3);
