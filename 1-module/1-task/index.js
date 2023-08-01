@@ -1,3 +1,10 @@
 function factorial(n) {
-  // ваш код...
+  i = 1;
+
+  while (n > 1) {
+    i = i * n;
+    n = n - 1;
+  }
+  return i;
 }
+
