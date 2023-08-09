@@ -1,5 +1,4 @@
 function isEmpty(obj) {
-  
   for (let key in obj) {
     if (key in obj) {
       return false;
@@ -7,5 +6,3 @@ function isEmpty(obj) {
   }
   return true;
 }
-
-isEmpty(obj);
