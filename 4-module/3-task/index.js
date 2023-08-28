@@ -1,11 +1,8 @@
-// Самостоятельно с задачей не смог справиться :(
-
 const FIRST_COLUMN = 1;
 const SECOND_COLUMN = 2;
 const THIRD_COLUMN = 3;
 
 function highlight(table) {
-  // ваш код...
   const actions = {
     [THIRD_COLUMN]: (root, td) => {
       if (td.dataset.available === 'true') {
